@@ -27,7 +27,9 @@ export const Input = styled.input`
   padding: 10px;
   outline: none;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   width: 100%;
   box-shadow: inset 0 0 1px 1px #0003;
+  background-color: #E49348;
 `;
+
