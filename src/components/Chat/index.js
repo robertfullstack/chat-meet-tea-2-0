@@ -5,6 +5,7 @@ import Default from "./../Default";
 import ChatBody from "../ChatBody";
 import ChatFooter from "../ChatFooter";
 
+
 const Chat = ({ userChat }) => {
   if (!userChat) return <Default />;
 
