@@ -2,13 +2,15 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   height: 59px;
-  background-color: #f0f2f5;
+  background-color: #5882D1;
   padding: 10px 16px;
   display: flex;
+  -webkit-box-align: center;
   align-items: center;
+  -webkit-box-pack: justify;
   justify-content: space-between;
-  margin-bottom: 5px;
-  box-shadow: 0 1px 2px #0003;
+  margin-bottom: 1px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 2px;
 `;
 
 export const Avatar = styled.img`

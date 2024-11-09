@@ -1,15 +1,16 @@
 import React from "react";
 import * as C from "./styles";
-import { MdMessage } from "react-icons/md";
+import LogoTEA from '../icons/LogoTEA.png';
 
 const Default = () => {
   return (
     <C.Container>
-      <MdMessage />
-      <C.Title>Chat App</C.Title>
+      <div>
+        <img src={LogoTEA} alt="Logo Meet Tea"  width="100%" height="200px"/>
+      </div>
+      <C.Title>Chat Meet Tea</C.Title>
       <C.Info>
-        Agora você pode enviar e receber mensagens sem precisar manter seu
-        celular conectado à internet.
+        Seja bem vindo(a) ao chat Meet Tea!
       </C.Info>
     </C.Container>
   );

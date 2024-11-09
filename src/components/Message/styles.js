@@ -31,7 +31,7 @@ export const Message = styled.span`
 
 export const MessageDate = styled.span`
   font-size: 11px;
-  color: #999;
+  color: rgb(53 60 73);;
   text-align: right;
   height: 15px;
   margin: -5px 5px 0;

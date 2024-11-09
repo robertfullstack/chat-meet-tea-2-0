@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  flex: 1;
-  background-color: #efeae2;
+  flex: 1 1 0%;
+  background-color: #fafafa;
   overflow-y: auto;
 
   &::-webkit-scrollbar {
@@ -14,4 +14,4 @@ export const Container = styled.div`
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.2);
   }
-`;
+  `;
